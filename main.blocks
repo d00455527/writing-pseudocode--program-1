@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="~Q(s)F*yvu90M|%au^{G" x="39" y="9"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="?U}@|q%ki[9k:yQ.1xWs"><field name="LEDS">`
+        . # # . . 
+        # # # . . 
+        . # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block><block type="pxt-on-start" id="9A/,J*~D`3B=PLnEtA!z" x="433" y="10"><statement name="HANDLER"><block type="input_set_sound_threshold" id="~-2aZ3-w)JwTZBw-(KZP"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="KifVTE[)@a=m?@+mJ=`e"><mutation min="0" max="255" label="Threshold" precision="0"></mutation><field name="SLIDER">128</field></shadow></value></block></statement></block><block type="input_on_sound" id="G;G`h=cXcFT#ZK`XvO98" x="37" y="345"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id="N$=Vo}Mu#(rHPa,D~O-o"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="m85HmdU)=RR{g=HP?zRz"><field name="soundExpression">soundExpression.twinkle</field></shadow></value></block></statement></block></xml>
